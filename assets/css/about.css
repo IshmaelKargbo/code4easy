@@ -1,0 +1,314 @@
+@font-face {
+  font-family: Cocogoose;
+  src: url("../fonts/Cocogoose_trial.otf");
+}
+
+p,
+h1,
+h3 {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans";
+  margin: 0;
+  letter-spacing: 1px;
+  padding: 0;
+  background: #fff;
+  font-size: 14px;
+}
+
+header {
+  position: relative;
+  background: #f1f1f1 url("../images/about.svg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.font-cocogoose {
+  font-family: Cocogoose, "Courier New", Courier, monospace;
+}
+
+.headline .title {
+  font-size: 40px;
+  color: #ec5242;
+  text-align: center;
+}
+
+.title-sub {
+  font-size: 22px;
+  color: #ec5242;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about {
+  position: relative;
+  padding: 100px 16px;
+}
+
+.mobile-nav {
+  cursor: pointer;
+  position: absolute;
+  top: 24px;
+  left: 34px;
+  z-index: 1;
+}
+
+.mobile-nav .menu div {
+  width: 40px;
+  height: 7px;
+  margin-bottom: 5px;
+  background: #5f6167;
+}
+
+.caption {
+  background: #fff;
+  padding: 24px 14px;
+  font-size: 14px;
+  border: 2px solid #d3d3d3;
+  font-weight: 600;
+  text-align: center;;
+  line-height: 22px;
+  color: #5f6167;
+  margin-top: 16px;
+}
+
+.contact-info {
+  text-align: center;
+  margin: 30px auto;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.past {
+  padding: 36px 24px;
+}
+
+.past .title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.past .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.past .red-line {
+  width: 50px;
+  border-color: #ec5242;
+}
+
+.past .list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px -24px;
+  padding: 0;
+}
+
+.past .list li .card {
+  margin: 24px;
+  position: relative;
+}
+
+.past .list li .card img {
+  width: 100%;
+  height: 100%;
+}
+
+.past .list li .card .detail {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #ec5342cf;
+}
+
+.past .list li .card .detail h3 {
+  font-size: 25px;
+}
+
+.past .list li .card .detail p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.partners {
+  background: #272a31;
+  color: #fff;
+  padding: 36px 10px;
+}
+
+.partners .title-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.partners .red-line {
+  width: 50px;
+  border-color: #ec5242;
+}
+
+.partners .list {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners .list li svg {
+  margin: 10px 16px;
+  width: 120px;
+}
+
+footer {
+  display: flex;
+  padding: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Cocogoose, "Courier New", Courier, monospace;
+  color: #272a31;
+}
+
+.mobile-menu {
+  background: #ec5342c7;
+  z-index: 50;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  backdrop-filter: blur(2px);
+  display: none;
+  top: 0;
+}
+
+.mobile-menu > .close-modal {
+  background: transparent;
+  border: none;
+  color: white;
+  position: absolute;
+  right: 27px;
+  top: 8px;
+  font-size: 40px;
+}
+
+.mobile-menu > nav {
+  padding: 86px 98px 86px 28px;
+}
+
+.mobile-menu > nav > ul {
+  list-style: none;
+}
+
+.mobile-menu > nav > ul > li {
+  margin-bottom: 40px;
+}
+
+.mobile-menu > nav > ul > li > a {
+  color: white;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: block;
+    background: #fff;
+    display: flex;
+    padding: 20px 0;
+  }
+
+  .desktop-nav nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .desktop-nav nav .list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .desktop-nav nav .logo {
+    color: #ec5242;
+  }
+
+  .desktop-nav nav .list li a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: #5f6167;
+    font-size: 16px;
+  }
+
+  .desktop-nav nav .list li a:active {
+    color: #ec5242;
+  }
+
+  .headline .title-sub {
+    font-size: 24px;
+  }
+
+  .headline .title {
+    width: 80%;
+    font-size: 50px;
+    margin: auto;
+  }
+
+  .headline .caption {
+    width: 70%;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 34px;
+    margin: 30px auto;
+  }
+
+  .headline .event_date {
+    font-size: 30px;
+  }
+
+  .headline .location {
+    font-size: 20px;
+  }
+
+  .past .list li {
+    width: 50%;
+  }
+}
