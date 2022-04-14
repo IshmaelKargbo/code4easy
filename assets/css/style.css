@@ -10,7 +10,7 @@ h3 {
 }
 
 body {
-  font-family: "Open Sans";
+  font-family: Roboto, 'Courier New', Courier, monospace;
   margin: 0;
   letter-spacing: 1px;
   padding: 0;
@@ -316,7 +316,6 @@ footer {
   }
 
   .desktop-nav {
-    display: block;
     background: #fff;
     display: flex;
     padding: 20px 0;
@@ -327,7 +326,7 @@ footer {
     justify-content: space-between;
   }
 
-  .desktop-nav nav .list {
+  .desktop-nav .list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -389,7 +388,6 @@ footer {
   .programs .list li .card h3,
   .programs .list li .card i {
     padding: 0;
-    margin: 0;
     width: auto;
     text-align: center;
     margin: 5px 0;
