@@ -318,11 +318,6 @@ footer {
 }
 
 @media (min-width: 768px) {
-  .container {
-    width: 1024px;
-    margin: 0 auto;
-  }
-
   .mobile-nav {
     display: none;
   }
