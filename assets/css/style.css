@@ -111,7 +111,7 @@ header {
 .join_summit {
   display: block;
   margin: 0 auto;
-  padding: 30px 42px;
+  padding: 24px 32px;
   color: #fff;
   font-size: 16px;
   border: none;
@@ -122,12 +122,12 @@ header {
 .programs .list {
   list-style: none;
   padding: 0;
-  margin: 30px;
+  margin: 30px 0;
 }
 
 .programs .list li .card {
   display: flex;
-  margin: 10px;
+  margin: 10px 5px;
   background-color: #18181896;
   align-items: center;
   padding: 28px 24px;
