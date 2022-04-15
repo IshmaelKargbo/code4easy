@@ -272,6 +272,7 @@ header {
 
 .mobile-menu > nav > ul > li {
   margin-bottom: 40px;
+  text-align: left;
 }
 
 .mobile-menu > nav > ul > li > a {
