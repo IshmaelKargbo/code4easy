@@ -48,7 +48,7 @@ header {
 
 .mobile-nav {
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   top: 24px;
   left: 34px;
   z-index: 1;
