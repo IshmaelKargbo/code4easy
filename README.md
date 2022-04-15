@@ -2,8 +2,8 @@
 
  Thi Capstone project is a project required students to build a website from scratch. It's a solo project for all students as it marks the end of a module. The idea is to follow a design given in the curriculum and each student is asked to come up with an idea and build the project on it and make the dsign look closely similar.
 
-#### Mobile Screenshot
-<img src="./images/screenshots/Mobile.png" alt="Code 4 Easy" />
+#### Desktop Screenshot
+<img src="./assets/images/app_screenshot.png" alt="Code 4 Easy" />
 
 ## Built With
 
@@ -15,16 +15,17 @@
 
 ## Live Demo
 
-<a href="https://amkam-dev-bootcamp.netlify.app/">Code 4 Easy</a>
+<a href="https://ishmaelkargbo.github.io/code4easy/">Code 4 Easy</a>
 
 ## Video about the project and demo work through
+Project video link <a href="https://www.loom.com/share/db8f0813c6b34171aa7b8d0de1a7223b">Code 4 Easy</a>
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 - Clone this repository to your local machine
-- git clone https://github.com/ishmaelkargbo/Portfolio.git
+- git clone https://github.com/IshmaelKargbo/code4easy.git
 - cd Portfolio
 - Open `index.html` file in a browser of your choice
 
