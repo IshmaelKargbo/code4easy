@@ -197,6 +197,19 @@ header {
   padding-left: 24px;
 }
 
+.speakers .list li .card .position {
+  color: #ec5242;
+  padding: 5px 0;
+  font-style: italic;
+}
+
+
+.speakers .list li .card hr {
+  width: 30px;
+  display: inline-block;
+  border-color: #ec5242;
+}
+
 .speakers .list li .profile .check {
   width: 50px;
   left: 0;
