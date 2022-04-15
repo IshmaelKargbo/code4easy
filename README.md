@@ -3,7 +3,7 @@
  Thi Capstone project is a project required students to build a website from scratch. It's a solo project for all students as it marks the end of a module. The idea is to follow a design given in the curriculum and each student is asked to come up with an idea and build the project on it and make the dsign look closely similar.
 
 #### Mobile Screenshot
-<img src="./images/screenshots/Mobile.png" alt="Code 4 Easy" />
+<img src="./assets/images/app_screenshot.png" alt="Code 4 Easy" />
 
 ## Built With
 
