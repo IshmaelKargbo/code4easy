@@ -10,7 +10,7 @@ h3 {
 }
 
 body {
-  font-family: Roboto, 'Courier New', Courier, monospace;
+  font-family: Roboto, "Courier New", Courier, monospace;
   margin: 0;
   letter-spacing: 1px;
   padding: 0;
@@ -180,11 +180,24 @@ header {
   width: 120px;
 }
 
-footer {
+.logo-section {
+  border-bottom: 1px solid #dbdde1;
+}
+
+.footer-bg {
+  background: #272a31;
+  color: #fff;
+}
+
+.footer {
   display: flex;
   padding: 32px;
   justify-content: space-between;
   align-items: center;
+}
+
+.logo-section {
+  padding: 48px 0;
 }
 
 .logo {
@@ -192,6 +205,40 @@ footer {
   font-size: 18px;
   font-family: Cocogoose, "Courier New", Courier, monospace;
   color: #272a31;
+}
+
+.des {
+  margin: 24px 0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  padding: 0 24px;
+}
+
+.logo-des {
+  border: 1px solid #5f6167;
+  padding: 34px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 32px auto;
+}
+
+.logo-des .logo {
+  font-size: 45px;
+}
+
+.logo-des .time {
+  border-bottom: 1px solid #5f6167;
+  border-top: 1px solid #5f6167;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.footer .logo {
+  color: #fff;
 }
 
 .mobile-menu {
@@ -309,5 +356,9 @@ footer {
 
   .past .list li {
     width: 50%;
+  }
+
+  .logo-des {
+    width: 40%;
   }
 }
