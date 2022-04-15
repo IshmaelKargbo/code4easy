@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-<a href="https://amkam-dev-bootcamp.netlify.app/">Code 4 Easy</a>
+<a href="https://ishmaelkargbo.github.io/code4easy/">Code 4 Easy</a>
 
 ## Video about the project and demo work through
 

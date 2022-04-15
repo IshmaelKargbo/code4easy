@@ -318,7 +318,7 @@ footer {
   display: none;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .container {
     width: 1024px;
     margin: 0 auto;
