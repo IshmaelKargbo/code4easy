@@ -329,12 +329,26 @@ footer {
   }
 
   .desktop-nav {
+    display: block;
     background: #fff;
-    display: flex;
-    padding: 20px 0;
   }
 
-  .desktop-nav nav {
+  .top-nav {
+    background: #272a31;
+    padding: 10px 0;
+    color: #fff;
+  }
+
+  .top-nav .list {
+    justify-content: end;
+  }
+
+  .top-nav .list li {
+    margin: 0 10px;
+  }
+
+  .desktop-nav .main-nav {
+    padding: 30px 0;
     display: flex;
     justify-content: space-between;
   }
@@ -346,18 +360,31 @@ footer {
     list-style: none;
   }
 
-  .desktop-nav nav .logo {
+  .main-nav .list {
+    margin: 0 -10px;
+  }
+
+  .desktop-nav .main-nav .logo {
     color: #ec5242;
   }
 
-  .desktop-nav nav .list li a {
+  .desktop-nav .main-nav .list li a {
     text-decoration: none;
     margin: 0 20px;
     color: #5f6167;
     font-size: 16px;
   }
 
-  .desktop-nav nav .list li a:active {
+  .nav-btn {
+    border: 4px solid #ec5242;
+    color: #ec5242 !important;
+    font-weight: 600;
+    padding: 16px 20px;
+    cursor: pointer;
+    margin-right: 0;
+  }
+
+  .desktop-nav .main-nav .list li a:active {
     color: #ec5242;
   }
 
