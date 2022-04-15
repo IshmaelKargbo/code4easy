@@ -180,10 +180,6 @@ header {
   width: 120px;
 }
 
-.logo-section {
-  border-bottom: 1px solid #dbdde1;
-}
-
 .footer-bg {
   background: #272a31;
   color: #fff;
@@ -197,6 +193,7 @@ header {
 }
 
 .logo-section {
+  border-bottom: 1px solid #dbdde1;
   padding: 48px 0;
 }
 
