@@ -448,3 +448,10 @@ footer {
     color: #ec5242;
   }
 }
+
+@media (min-width: 1140px) {
+  .container {
+    width: 1140px;
+    margin: 0 auto;
+  }
+}

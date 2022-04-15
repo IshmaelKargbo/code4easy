@@ -284,6 +284,11 @@ header {
 }
 
 @media (min-width: 768px) {
+  .container {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+
   .mobile-nav {
     display: none;
   }
@@ -380,5 +385,12 @@ header {
 
   .logo-des {
     width: 40%;
+  }
+}
+
+@media (min-width: 1140px) {
+  .container {
+    width: 1140px;
+    margin: 0 auto;
   }
 }
